@@ -1,0 +1,389 @@
+{
+  "common": {
+    "theme": {
+      "fontFamily": "var(--font-sans), system-ui, sans-serif"
+    },
+    "Footer": {
+      "logo": "/main logo/footer logo.webp",
+      "logoAlt": "RepairIQ Mobile Repair Services",
+      "description": "Professional mobile repair services with genuine parts, expert technicians, and fast turnaround.",
+      "quickLinksTitle": "Quick Links",
+      "quickLinks": [
+        {
+          "id": "footer-home",
+          "label": "Home",
+          "url": "/#hero"
+        },
+        {
+          "id": "footer-about",
+          "label": "About Us",
+          "url": "/#about"
+        },
+        {
+          "id": "footer-services",
+          "label": "Services",
+          "url": "/#services"
+        },
+        {
+          "id": "footer-why-choose-us",
+          "label": "Why Choose Us",
+          "url": "/#why-choose-us"
+        }
+      ],
+      "usefulLinksTitle": "Support",
+      "usefulLinks": [
+        {
+          "id": "footer-testimonials",
+          "label": "Testimonials",
+          "url": "/#testimonials"
+        },
+        {
+          "id": "footer-contact",
+          "label": "Contact Us",
+          "url": "/#contact"
+        }
+      ],
+      "contactTitle": "Get in Touch",
+      "address": "123 Main St, New York, NY, USA",
+      "phone": "+1 00000 00000",
+      "email": "info@xyz.com",
+      "copyrightText": "© 2026 Repair IQ. All Rights Reserved. Powered By Lestow",
+      "socialLinks": [
+        {
+          "id": "social-facebook",
+          "label": "Facebook",
+          "url": "#contact",
+          "icon": "facebook",
+          "ariaLabel": "RepairIQ on Facebook"
+        },
+        {
+          "id": "social-instagram",
+          "label": "Instagram",
+          "url": "#contact",
+          "icon": "instagram",
+          "ariaLabel": "RepairIQ on Instagram"
+        },
+        {
+          "id": "social-linkedin",
+          "label": "LinkedIn",
+          "url": "#contact",
+          "icon": "linkedin",
+          "ariaLabel": "RepairIQ on LinkedIn"
+        },
+        {
+          "id": "social-youtube",
+          "label": "YouTube",
+          "url": "#contact",
+          "icon": "youtube",
+          "ariaLabel": "RepairIQ on YouTube"
+        }
+      ]
+    }
+  },
+  "categories": {
+    "Repairing": {
+      "sections": {
+        "Header": {
+          "variants": {
+            "RepairingHeader2": {
+              "logo": "/main logo/header logo.webp",
+              "logoAlt": "RepairIQ Mobile Repair Services",
+              "navLinks": [
+                {
+                  "id": "nav-home",
+                  "label": "Home",
+                  "url": "/#hero"
+                },
+                {
+                  "id": "nav-about",
+                  "label": "About Us",
+                  "url": "/#about"
+                },
+                {
+                  "id": "nav-services",
+                  "label": "Services",
+                  "url": "/#services"
+                },
+                {
+                  "id": "nav-why-choose-us",
+                  "label": "Why Choose Us",
+                  "url": "/#why-choose-us"
+                },
+                {
+                  "id": "nav-testimonials",
+                  "label": "Testimonials",
+                  "url": "/#testimonials"
+                }
+              ],
+              "contactButton": {
+                "id": "header-contact",
+                "label": "Contact Us",
+                "url": "/#contact"
+              },
+              "openMenuLabel": "Open navigation menu",
+              "closeMenuLabel": "Close navigation menu"
+            }
+          }
+        },
+        "Hero": {
+          "variants": {
+            "RepairingHero2": {
+              "eyebrow": "PROFESSIONAL MOBILE REPAIR SERVICES",
+              "titleStart": "Trusted",
+              "titleAccent": "Mobile Repair",
+              "titleEnd": "Solutions for Every Device",
+              "description": "At REPAIRIQ, we deliver fast, reliable, and expert repair services to get your smartphone back to peak performance.",
+              "backgroundImage": "/hero/mobile-repair-hero.webp",
+              "imageAlt": "Technician repairing smartphone screen with precision tools"
+            }
+          }
+        },
+        "AboutUs": {
+          "variants": {
+            "RepairingAboutUs2": {
+              "eyebrow": "ABOUT REPAIRIQ",
+              "titleStart": "Your Trusted Partner in",
+              "titleAccent": "Mobile Repair",
+              "titleEnd": "Solutions",
+              "description": "At REPAIRIQ, we provide reliable, fast, and professional repair services for smartphones and other smart devices. Our skilled technicians, quality parts, and customer-first approach ensure your device gets the best care and performance.",
+              "circuitImage": {
+                "src": "/about/about-circuit.webp",
+                "alt": "Technician repairing smartphone motherboard with precision screwdriver"
+              },
+              "technicianImage": {
+                "src": "/about/about-technician.webp",
+                "alt": "Skilled mobile repair technician working at repair bench"
+              },
+              "screenImage": {
+                "src": "/about/about-screen.webp",
+                "alt": "Careful installation of a new smartphone display screen"
+              },
+              "missionCard": {
+                "label": "Our Mission:",
+                "quote": "“Restore Devices, Keep You Connected”"
+              }
+            }
+          }
+        },
+        "Services": {
+          "variants": {
+            "RepairingServices2": {
+              "eyebrow": "OUR SERVICES",
+              "titleStart": "Comprehensive",
+              "titleAccent": "Mobile Repair",
+              "titleEnd": "Services",
+              "subtitle": "From screen replacement to performance upgrades, we offer complete solutions for all your mobile device needs.",
+              "services": [
+                {
+                  "id": "service-01",
+                  "number": "01",
+                  "title": "Screen & Display Repair",
+                  "description": "Get your cracked or damaged screen fixed with precision and genuine parts. We repair and replace screens for all major brands, ensuring a clear, responsive, and like-new display experience.",
+                  "features": [
+                    "Genuine parts only",
+                    "All major brands covered",
+                    "Warranty on repair"
+                  ],
+                  "image": "/services/service-01.webp",
+                  "imageAlt": "Technician lifting smartphone display screen with suction tool",
+                  "url": "/#contact"
+                },
+                {
+                  "id": "service-02",
+                  "number": "02",
+                  "title": "Battery Replacement Services",
+                  "description": "Restore all-day power and fast charging with certified high-capacity replacement batteries. We safely swap degraded cells and run full charging diagnostics.",
+                  "features": [
+                    "Certified high-capacity cells",
+                    "Same-day turnaround",
+                    "Battery health warranty"
+                  ],
+                  "image": "/services/service-02.webp",
+                  "imageAlt": "Technician installing new lithium-ion battery into smartphone",
+                  "url": "/#contact"
+                },
+                {
+                  "id": "service-03",
+                  "number": "03",
+                  "title": "Data Recovery Services",
+                  "description": "Recover photos, contacts, and critical files from water-damaged, dead, or boot-looping smartphones using chip-level diagnostics and clean-room recovery tools.",
+                  "features": [
+                    "100% data privacy",
+                    "Logic board recovery",
+                    "No data, no fee"
+                  ],
+                  "image": "/services/service-03.webp",
+                  "imageAlt": "Smartphone connected to diagnostic workstation for data recovery",
+                  "url": "/#contact"
+                },
+                {
+                  "id": "service-04",
+                  "number": "04",
+                  "title": "Hardware Upgrade & Tuning",
+                  "description": "Boost device reliability and performance with precision micro-soldering, thermal pad replacement, charging port upgrades, and complete internal cleaning.",
+                  "features": [
+                    "Micro-soldering precision",
+                    "Thermal & port tuning",
+                    "Full QA inspection"
+                  ],
+                  "image": "/services/service-04.webp",
+                  "imageAlt": "Technician upgrading smartphone motherboard components with tweezers",
+                  "url": "/#contact"
+                }
+              ]
+            }
+          }
+        },
+        "Testimonials": {
+          "variants": {
+            "RepairingTestimonials2": {
+              "eyebrow": "TESTIMONIALS",
+              "titleStart": "What Our",
+              "titleAccent": "Customers",
+              "titleEnd": "Say",
+              "subtitle": "Real experiences from our valued customers who trust RepairIQ for reliable and professional mobile repair services.",
+              "items": [
+                {
+                  "id": "test-01",
+                  "name": "Rohit Sharma",
+                  "role": "Software Engineer",
+                  "quote": "Excellent service! My phone screen was fixed the same day, and it looks brand new. The team was professional and very helpful.",
+                  "rating": 5,
+                  "image": "/testimonials/avatar-01.webp",
+                  "imageAlt": "Rohit Sharma, Software Engineer"
+                },
+                {
+                  "id": "test-02",
+                  "name": "Sneha Verma",
+                  "role": "Marketing Executive",
+                  "quote": "Quick, affordable, and reliable. They replaced my phone battery in no time, and the performance is now much better.",
+                  "rating": 5,
+                  "image": "/testimonials/avatar-02.webp",
+                  "imageAlt": "Sneha Verma, Marketing Executive"
+                },
+                {
+                  "id": "test-03",
+                  "name": "Aman Khurana",
+                  "role": "Business Owner",
+                  "quote": "Highly satisfied with the repair service. Genuine parts, transparent pricing, and great customer support. Highly recommend RepairIQ!",
+                  "rating": 5,
+                  "image": "/testimonials/avatar-03.webp",
+                  "imageAlt": "Aman Khurana, Business Owner"
+                }
+              ]
+            }
+          }
+        },
+        "Contact": {
+          "variants": {
+            "RepairingContact2": {
+              "eyebrow": "CONTACT US",
+              "titleStart": "Need Help with Your Device?",
+              "titleAccent": "Contact Us",
+              "subtitle": "Book your preferred repair slot with RepairIQ and get fast, hassle-free service from our expert technicians. Choose a convenient time, and we'll ensure your device receives quick and professional attention.",
+              "callLabel": "Call Us",
+              "phones": [
+                "+10000 000 000",
+                "+10000 000 000"
+              ],
+              "emailLabel": "Email Us",
+              "emails": [
+                "info@xyz.com",
+                "info@xyz.com"
+              ],
+              "formTitle": "Send Us a Message",
+              "nameLabel": "Your Name",
+              "phoneLabel": "Phone No",
+              "emailFieldLabel": "Email",
+              "dateLabel": "Preferred Date",
+              "deviceTypeLabel": "Device Type",
+              "deviceOptions": [
+                "iPhone",
+                "Samsung Galaxy",
+                "OnePlus",
+                "Google Pixel",
+                "iPad / Tablet",
+                "Other Smartphone"
+              ],
+              "serviceTypeLabel": "Service Type",
+              "serviceOptions": [
+                "Screen & Display Repair",
+                "Battery Replacement Services",
+                "Data Recovery Services",
+                "Hardware Upgrade & Tuning"
+              ],
+              "messageLabel": "Message",
+              "messagePlaceholder": "To better assist you, please describe how we can help...",
+              "submitLabel": "Send Message",
+              "successMessage": "Thank you! Your repair inquiry has been received. Our team will contact you shortly."
+            }
+          }
+        },
+        "WhyChooseUs": {
+          "variants": {
+            "RepairingWhyChooseUs2": {
+              "eyebrow": "WHY CHOOSE US",
+              "titleStart": "The Right Choice for",
+              "titleAccent": "Mobile Repair",
+              "titleEnd": "Services",
+              "subtitle": "With skilled technicians, genuine parts, and a customer-first approach, we deliver reliable and high-quality repair solutions that keep your devices running like new.",
+              "items": [
+                {
+                  "id": "why-01",
+                  "title": "Professional Technicians",
+                  "icon": "technician",
+                  "image": "/about/about-technician.webp",
+                  "imageAlt": "Certified mobile repair technician working at repair bench"
+                },
+                {
+                  "id": "why-02",
+                  "title": "Same Day Repairs",
+                  "icon": "clock",
+                  "image": "/about/about-circuit.webp",
+                  "imageAlt": "Fast precision smartphone motherboard repair"
+                },
+                {
+                  "id": "why-03",
+                  "title": "Genuine Parts",
+                  "icon": "shield",
+                  "image": "/services/service-04.webp",
+                  "imageAlt": "Genuine replacement microchip and hardware parts"
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "pages": {
+    "home": {
+      "components": [
+        {
+          "key": "Hero",
+          "component": "Hero"
+        },
+        {
+          "key": "AboutUs",
+          "component": "AboutUs"
+        },
+        {
+          "key": "Services",
+          "component": "Services"
+        },
+        {
+          "key": "WhyChooseUs",
+          "component": "WhyChooseUs"
+        },
+        {
+          "key": "Testimonials",
+          "component": "Testimonials"
+        },
+        {
+          "key": "Contact",
+          "component": "Contact"
+        }
+      ]
+    }
+  }
+}
